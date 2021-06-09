@@ -10,12 +10,13 @@ if ((isset($_POST['fullname']) && $_POST['fullname'] != '')) {
     // $user_bundle_w = $conn->real_escape_string($_POST['bundle_waec']);
     $user_bundle_jamb_sci = implode(', ',$_POST['bundle_jambSci']);
     $user_bundle_waec_sci = implode(', ',$_POST['bundle_jambArt']);
+    $sub_date = date('Y-m-d H:i:s');
     // echo $user_bundle_waec_sci;
     // echo $user_bundle_waec_sci;
     // $user_bundle_j = $fids;
     // require_once("constant.php");
     $sql = "INSERT INTO users (fullname, email, phone, address, jambSoftSciBundle, jambSoftArtBundle, created_at) 
-VALUES('".$user_name."', '".$user_email."', '".$user_phone."', '".$user_address."','".$user_bundle_jamb_sci."', '".$user_bundle_waec_sci."', now())";
+VALUES('".$user_name."', '".$user_email."', '".$user_phone."', '".$user_address."','".$user_bundle_jamb_sci."', '".$user_bundle_waec_sci. "', '" .$sub_date. "')";
 // echo $sql;
     if (!$result = $conn->query($sql)) {
         $output = json_encode(array('type'=>'error', 'text' => 'There was an error running the query [' . $conn->error . ']'));

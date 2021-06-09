@@ -37,7 +37,7 @@
 <body>
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo red-text text-lighten-2">Prep50</a>
+            <a id="logo-container" href="#" class="brand-logo red-text text-lighten-2">Winbest International</a>
         </div>
     </nav>
     <div class="carousel carousel-slider center" data-indicators="true">
@@ -725,7 +725,7 @@
                         When you place an order for hardcopy on any of the bundle, and
                         your subject combinations are a bit different, please give us a
                         call on
-                        <b class="red-text text-lighten-2">Phone: 09038356928</b> to
+                        <b class="red-text text-lighten-2">Phone: 07084222364 or 08065106654</b> to
                         confirm the subjects you need within the bundle.
                     </p>
 
@@ -734,7 +734,7 @@
                         will send out your order for delivery.
                     </p>
 
-                    <h4 class="red-text text-lighten-2">Phone: 09038356928</h4>
+                    <h4 class="red-text text-lighten-2">Phone: 07084222364 or 08065106654</h4>
                     <!-- </p> -->
                 </div>
             </div>
