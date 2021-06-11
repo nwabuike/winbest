@@ -15,22 +15,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Prep50 | Books</title>
+    <!-- Facebook Pixel Code -->
     <script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '686693168688131');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=686693168688131&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '331221205298941');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=331221205298941&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 
 </head>
 
@@ -479,7 +488,7 @@
                 officials unending for a problem 10k should have solved. So place your
                 order now and pay for your order to be arranged and sent to you. Be arranged and sent to you within 24 to 48hrs.
             </p>
-            
+
             <!-- Modal Structure -->
             <!-- <div id="modal1" class="modal">
                 <div class="modal-content">
@@ -741,86 +750,86 @@
         </div>
     </div>
     <div class="container" id="form">
-                <div class="section">
+        <div class="section">
+            <div class="row">
+                <form class="col s12" method="POST" name="genForm" id="genForm">
+                    <div class="card">
+                        <h5 class="red-text text-lighten-2 center">Prep50 Jamb And Waec Past Questions</h5>
+                        <p class="red-text text-lighten-2 center">Please fill the following information</p>
+                    </div>
                     <div class="row">
-                        <form class="col s12" method="POST" name="genForm" id="genForm">
-                            <div class="card">
-                                <h5 class="red-text text-lighten-2 center">Prep50 Jamb And Waec Past Questions</h5>
-                                <p class="red-text text-lighten-2 center">Please fill the following information</p>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input name="fullname" id="fullname" type="text" class="validate" required>
-                                    <label for="full_name">Full Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input id="phone" name="phone" type="tel" class="validate" required>
-                                    <label for="phone_number">Phone Number</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="email" name="email" type="email" class="validate" required>
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="address" type="text" name="address" class="validate" required>
-                                    <label for="address">Enter Your Full Address including the city and state</label>
-                                </div>
-
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col s12 m6">
-                                <h4 class="red-text text-lighten-2">Jamb Bundle</h4>
-                                <div>
-                                    <select id="sci_waec_hard" name="bundle_jamb_bundle">
-                                        <option value="" disabled selected>Choose your Jamb Bundle</option>
-                                        <option value="jambScienceBundle">Science Bundle &#8358;10,000</option>
-                                        <option value="jambArtBundle">Art Bundle &#8358;10,000</option>
-                                    </select>
-                                </div>
-                                </div>
-                                <div class="col s12 m6">
-                                <h4 class="red-text text-lighten-2">Waec Bundle </h4>
-                                <div>
-                                    <select id="sci_waec_hard" name="bundle_waec_bundle">
-                                        <option value="" disabled selected>Choose your Waec Bundle</option>
-                                        <option value="waecScienceBundle">Science Bundle &#8358;15,000</option>
-                                        <option value="waecArtBundle">Art Bundle <b class="red-text text-lighten-2">&#8358;15,000</b></option>
-                                    </select>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="card">
-                                    <div class="input-field col s12" id="mail-status"> </div>
-                                </div>
-                            </div>
-                            <div class="row center">
-                                <button class="btn waves-effect waves-light center" id="Btn" type="submit" name="submit">
-                                    Submit
-                                    <i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                        </form>
-                        <div class="progress" id="loader-icon" style="display:none; ">
-                            <div class="indeterminate"></div>
+                        <div class="input-field col s6">
+                            <input name="fullname" id="fullname" type="text" class="validate" required>
+                            <label for="full_name">Full Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="phone" name="phone" type="tel" class="validate" required>
+                            <label for="phone_number">Phone Number</label>
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" name="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="address" type="text" name="address" class="validate" required>
+                            <label for="address">Enter Your Full Address including the city and state</label>
+                        </div>
 
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <h4 class="red-text text-lighten-2">Jamb Bundle</h4>
+                            <div>
+                                <select id="sci_waec_hard" name="bundle_jamb_bundle">
+                                    <option value="" disabled selected>Choose your Jamb Bundle</option>
+                                    <option value="jambScienceBundle">Science Bundle &#8358;10,000</option>
+                                    <option value="jambArtBundle">Art Bundle &#8358;10,000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col s12 m6">
+                            <h4 class="red-text text-lighten-2">Waec Bundle </h4>
+                            <div>
+                                <select id="sci_waec_hard" name="bundle_waec_bundle">
+                                    <option value="" disabled selected>Choose your Waec Bundle</option>
+                                    <option value="waecScienceBundle">Science Bundle &#8358;15,000</option>
+                                    <option value="waecArtBundle">Art Bundle <b class="red-text text-lighten-2">&#8358;15,000</b></option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <div class="input-field col s12" id="mail-status"> </div>
+                        </div>
+                    </div>
+                    <div class="row center">
+                        <button class="btn waves-effect waves-light center" id="Btn" type="submit" name="submit">
+                            Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+                <div class="progress" id="loader-icon" style="display:none; ">
+                    <div class="indeterminate"></div>
+                </div>
             </div>
-            <footer class="page-footer">
-       
-       <div class="footer-copyright">
-         <div class="container">
-         © 2021 Copyright Prep50Books. Powered by Daecons Educational consult & Data center and Deacons Digital Solutions ltd.
-         </div>
-       </div>
-     </footer>
+        </div>
+
+    </div>
+    <footer class="page-footer">
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2021 Copyright Prep50Books. Powered by Daecons Educational consult & Data center and Deacons Digital Solutions ltd.
+            </div>
+        </div>
+    </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- <script type="text/javascript" src="./js/jquery-2.2.2.js"></script> -->
@@ -851,7 +860,7 @@
             //         "bundle_waecBundle": $('select[name="bundle_waec_bundle"]').val(),
 
             //         }, 
-                    
+
             //         success: function(response) {
             //             console.log('here');
             //             console.log(response);
@@ -905,116 +914,116 @@
             //         $(this).removeAttr("disabled", false)
             //     }
             // });
-//             var last_valid_selection = null;
-//         $('#sci_jamb_soft').change(function(event) {
-//             $('#art_jamb_soft').hide();
-//          if ($(this).val().length > 2) {
-//            alert('You can only choose 2!');
-//            $(this).val(last_valid_selection);
-//          } else {
-//            last_valid_selection = $(this).val();
-//          }
-//        });
-//             $('#art_jamb_soft').on('change', function() {
-//                 $('#sci_jamb_soft').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing three Subject');
+            //             var last_valid_selection = null;
+            //         $('#sci_jamb_soft').change(function(event) {
+            //             $('#art_jamb_soft').hide();
+            //          if ($(this).val().length > 2) {
+            //            alert('You can only choose 2!');
+            //            $(this).val(last_valid_selection);
+            //          } else {
+            //            last_valid_selection = $(this).val();
+            //          }
+            //        });
+            //             $('#art_jamb_soft').on('change', function() {
+            //                 $('#sci_jamb_soft').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing three Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#sci_jamb_hard').on('change', function() {
-//                 $('#art_jamb_hard').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing three(3) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#sci_jamb_hard').on('change', function() {
+            //                 $('#art_jamb_hard').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing three(3) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#art_jamb_hard').on('change', function() {
-//                 $('#sci_jamb_hard').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing three(3) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#art_jamb_hard').on('change', function() {
+            //                 $('#sci_jamb_hard').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing three(3) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#sci_waec_hard').on('change', function() {
-//                 $('#art_waec_hard').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#sci_waec_hard').on('change', function() {
+            //                 $('#art_waec_hard').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#art_waec_hard').on('change', function() {
-//                 $('#sci_waec_hard').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#art_waec_hard').on('change', function() {
+            //                 $('#sci_waec_hard').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-// //general form
-//             $('#sci_jamb').on('change', function() {
-//                 $('#art_jamb').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing three(3) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            // //general form
+            //             $('#sci_jamb').on('change', function() {
+            //                 $('#art_jamb').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing three(3) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#art_jamb').on('change', function() {
-//                 $('#sci_jamb').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing three(3) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#art_jamb').on('change', function() {
+            //                 $('#sci_jamb').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing three(3) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#sci_waec').on('change', function() {
-//                 $('#art_waec').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#sci_waec').on('change', function() {
+            //                 $('#art_waec').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
-//             $('#art_waec').on('change', function() {
-//                 $('#sci_waec').hide();
-//                 if ($("select option:selected").length > 3) {
-//                     $(this).removeAttr("selected", false);
-//                     $(this).removeAttr("disabled", true);
-//                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
+            //             $('#art_waec').on('change', function() {
+            //                 $('#sci_waec').hide();
+            //                 if ($("select option:selected").length > 3) {
+            //                     $(this).removeAttr("selected", false);
+            //                     $(this).removeAttr("disabled", true);
+            //                     // alert('English already selected by default, So choose the remaing Five(5) Subject');
 
-//                 } else {
-//                     $(this).removeAttr("disabled", false)
-//                 }
-//             });
+            //                 } else {
+            //                     $(this).removeAttr("disabled", false)
+            //                 }
+            //             });
 
             $('.carousel.carousel-slider').carousel({
                 fullWidth: true
@@ -1054,31 +1063,31 @@
                 amount: 800000, //amount the customer is supposed to pay
                 metadata: {
                     custom_fields: [{
-                        display_name: "Full Name",
-                        variable_name: "fullname",
-                        value: fullname //customer's mobile number
-                    },
-                    {
-                        display_name: "Phone Number",
-                        variable_name: "phone Number",
-                        value: phone //customer's mobile number
-                    },
-                    {
-                        display_name: "Delivery Address",
-                        variable_name: "Address",
-                        value: address //customer's mobile number
-                    },
-                    {
-                        display_name: "Jamb Sci Soft Copy",
-                        variable_name: "Jamb",
-                        value: jamb_sci //customer's mobile number
-                    },
-                    {
-                        display_name: "Jamb Art Soft Copy",
-                        variable_name: "Jamb",
-                        value: waec //customer's mobile number
-                    },
-                ]
+                            display_name: "Full Name",
+                            variable_name: "fullname",
+                            value: fullname //customer's mobile number
+                        },
+                        {
+                            display_name: "Phone Number",
+                            variable_name: "phone Number",
+                            value: phone //customer's mobile number
+                        },
+                        {
+                            display_name: "Delivery Address",
+                            variable_name: "Address",
+                            value: address //customer's mobile number
+                        },
+                        {
+                            display_name: "Jamb Sci Soft Copy",
+                            variable_name: "Jamb",
+                            value: jamb_sci //customer's mobile number
+                        },
+                        {
+                            display_name: "Jamb Art Soft Copy",
+                            variable_name: "Jamb",
+                            value: waec //customer's mobile number
+                        },
+                    ]
                 },
                 callback: function(response) {
                     //successful transaction
@@ -1095,6 +1104,7 @@
             handler.openIframe(); //open the paystack's payment modal
 
         }
+
         function sendEmailToPhp() {
             $.post("./php/get_connection.php", {
                     "fullname": $('input[name="fullname1"]').val(),
@@ -1121,7 +1131,7 @@
                     $("#mail-status").html(response.text);
                 });
         }
-       
+
         function onSubmit() {
             $('#Btn').on('click', function(evt) {
                 $("#mail-status").hide();
@@ -1129,15 +1139,16 @@
                 $('#loader-icon').show();
                 $("#genForm").show();
                 evt.preventDefault();
-                
+
                 // var data = user_data;
                 // let email = "support@prep50.ng";
                 // disableSubmitBtn();
                 // payWithPaystackJambHard();
                 sendToPhp();
-                
+
             });
         }
+
         function sendToPhp() {
             $.post("./php/genera.php", {
                     "fullname": $('input[name="fullname"]').val(),
@@ -1166,7 +1177,7 @@
                     $("#mail-status").html(response.text);
                 });
         }
-       
+
 
 
         function payWithPaystackWaec() {
@@ -1181,43 +1192,43 @@
             console.log(email2);
             console.log(waec_Hard_sci);
             console.log(waec_Hard_art);
-            
+
             var handler = PaystackPop.setup({
                 key: 'pk_live_b19d2b16b5c91f33f6581ad46b428840d93e48a2', //put your public key here
                 email: email2, //put your customer's email here
                 amount: 1500000, //amount the customer is supposed to pay
                 metadata: {
                     custom_fields: [{
-                        display_name: "Full Name",
-                        variable_name: "fullname",
-                        value: fullname2 //customer's mobile number
-                    },
-                    {
-                        display_name: "Phone Number",
-                        variable_name: "phone Number",
-                        value: phone2 //customer's mobile number
-                    },
-                    {
-                        display_name: "Delivery Address",
-                        variable_name: "Address",
-                        value: address2 //customer's mobile number
-                    },
-                    {
-                        display_name: "Waec Sci Hard Copy",
-                        variable_name: "Jamb",
-                        value: waec_Hard_sci //customer's mobile number
-                    },
-                    {
-                        display_name: "Waec Art Hard Copy",
-                        variable_name: "Jamb",
-                        value: waec_Hard_art //customer's mobile number
-                    },
-                ]
+                            display_name: "Full Name",
+                            variable_name: "fullname",
+                            value: fullname2 //customer's mobile number
+                        },
+                        {
+                            display_name: "Phone Number",
+                            variable_name: "phone Number",
+                            value: phone2 //customer's mobile number
+                        },
+                        {
+                            display_name: "Delivery Address",
+                            variable_name: "Address",
+                            value: address2 //customer's mobile number
+                        },
+                        {
+                            display_name: "Waec Sci Hard Copy",
+                            variable_name: "Jamb",
+                            value: waec_Hard_sci //customer's mobile number
+                        },
+                        {
+                            display_name: "Waec Art Hard Copy",
+                            variable_name: "Jamb",
+                            value: waec_Hard_art //customer's mobile number
+                        },
+                    ]
                 },
                 callback: function(response) {
                     //successful transaction
                     alert('Transaction was successful');
-                    
+
                     window.location.href = "thank-you.html";
 
                 },
@@ -1229,7 +1240,6 @@
             });
             handler.openIframe();
         }
-       
     </script>
 </body>
 
