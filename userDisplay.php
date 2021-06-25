@@ -1,6 +1,6 @@
 <?php
 include_once './php/db_connection.php';
-$result = mysqli_query($conn, "SELECT * FROM users ORDER BY created_at DESC");
+$result = mysqli_query($conn, "SELECT * FROM users ORDER BY id DESC");
 ?>
 <!DOCTYPE html>
 <html lang="en">
