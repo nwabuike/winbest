@@ -22,7 +22,7 @@ if ((isset($_POST['fullname']) && $_POST['fullname'] != '')) {
     // $user_bundle_j = $fids;
     // require_once("constant.php");
     $sql = "INSERT INTO users (fullname, email, phone, address, state, jambSoftSciBundle, waecSoftSciBundle, jamb_waec, created_at) 
-VALUES('".$user_name."', '".$user_email."', '".$user_phone."', '".$user_address. "', '".$user_state."','".$user_bundle_j."', '".$user_bundle_w."','".$user_bundle_w_j."','".$user_date."')";
+VALUES('".$user_name."', '".$user_email."', '".$user_phone."', '".$user_address."', '".$user_state."','".$user_bundle_j."', '".$user_bundle_w."','".$user_bundle_w_j."','".$user_date."')";
 // echo $sql;
     if (!$result = $conn->query($sql)) {
         $output = json_encode(array('type'=>'error', 'text' => 'There was an error running the query [' . $conn->error . ']'));
