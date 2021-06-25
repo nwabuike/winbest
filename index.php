@@ -14,7 +14,7 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Prep50 | Books</title>
+    <title>Winbest International</title>
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -774,9 +774,52 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="input-field col s12">
+                        <div class="input-field col s12 m6">
                             <input id="address" type="text" name="address" class="validate" required>
                             <label for="address">Enter Your Full Address including the city and state</label>
+                        </div>
+                        <div class="col s12 m6">
+                            <h5 class="red-text text-lighten-2">State of address </h5>
+                            <select required name="state" id="state">
+                                <option disabled selected>Select State</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Akwa Ibom">Akwa Ibom</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Bayelsa">Bayelsa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Cross Rive">Cross River</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Ebonyi">Ebonyi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="FCT">Federal Capital Territory</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Katsina">Katsina</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Nasarawa">Nasarawa</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Zamfara">Zamfara</option>
+                            </select>
                         </div>
 
                     </div>
@@ -785,7 +828,7 @@
                         <div class="col s12 m6">
                             <h4 class="red-text text-lighten-2">Jamb Bundle</h4>
                             <div>
-                                <select id="sci_waec_hard" name="bundle_jamb_bundle">
+                                <select id="jamb_bundle" name="jamb_bundle">
                                     <option value="" disabled selected>Choose your Jamb Bundle</option>
                                     <option value="jambScienceBundle">Science Bundle &#8358;10,000</option>
                                     <option value="jambArtBundle">Art Bundle &#8358;10,000</option>
@@ -795,12 +838,23 @@
                         <div class="col s12 m6">
                             <h4 class="red-text text-lighten-2">Waec Bundle </h4>
                             <div>
-                                <select id="sci_waec_hard" name="bundle_waec_bundle">
+                                <select id="waec_bundle" name="waec_bundle">
                                     <option value="" disabled selected>Choose your Waec Bundle</option>
                                     <option value="waecScienceBundle">Science Bundle &#8358;15,000</option>
                                     <option value="waecArtBundle">Art Bundle <b class="red-text text-lighten-2">&#8358;15,000</b></option>
                                 </select>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <h4 class="red-text text-lighten-2">Both Jamb & Waec Bundle </h4>
+                        <div>
+                            <select id="waec_jamb_bundle" name="waec_jamb_bundle">
+                                <option value="none" disabled selected>Choose your Combine Bundle</option>
+                                <option value="waecScienceBundle">Both Jamb & Waec Science Bundle &#8358;22,500</option>
+                                <option value="waecArtBundle">Both Jamb & Waec Art Bundle <b class="red-text text-lighten-2">&#8358;22,500</b></option>
+                                <option value="waecCommercialBundle">Both Jamb & Waec Commercial Bundle <b class="red-text text-lighten-2">&#8358;22,500</b></option>
+                            </select>
                         </div>
                     </div>
                     <div class="row">
@@ -826,7 +880,7 @@
 
         <div class="footer-copyright">
             <div class="container">
-                © 2021 Copyright Prep50Books. Powered by Daecons Educational consult & Data center and Deacons Digital Solutions ltd.
+                © 2021 Copyright Winbest International. Powered by Daecons Educational consult & Data center and Deacons Digital Solutions ltd.
             </div>
         </div>
     </footer>
@@ -1155,8 +1209,10 @@
                     "email": $('input[name="email"]').val(),
                     "phone": $('input[name="phone"]').val(),
                     "address": $('input[name="address"]').val(),
-                    "bundle_jambBundle": $('select[name="bundle_jamb_bundle"]').val(),
-                    "bundle_waecBundle": $('select[name="bundle_waec_bundle"]').val(),
+                    "state": $('select[name="state"]').val(),
+                    "jambBundle": $('select[name="jamb_bundle"]').val(),
+                    "waecBundle": $('select[name="waec_bundle"]').val(),
+                    "waec_jambBundle": $('select[name="waec_jamb_bundle"]').val(),
 
                 })
                 // .error(function(error) {});
@@ -1171,9 +1227,9 @@
                         $('#JambHardBtn').hide();
                         $("#mail-status").attr("class", "success");
                         // window.location.href = "thanks.html";
-                        window.location.href = "thank-you.html";
+                        // window.location.href = "thank-you.html";
                     }
-                    window.location.href = "thank-you.html";
+                    // window.location.href = "thank-you.html";
                     $("#mail-status").html(response.text);
                 });
         }

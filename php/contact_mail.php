@@ -1,5 +1,5 @@
 <?php
-$toEmail = "deaconscbt@gmail.com";
+$toEmail = "edwinjohn40@yahoo.com";
 $mailHeaders = "From: " . $user_name . "<" . $user_email . ">\r\n";
 $mailBody = "User Name: " . $user_name . "\n";
 $mailBody .= "User Email: " . $user_email . "\n";
