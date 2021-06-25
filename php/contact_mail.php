@@ -5,8 +5,10 @@ $mailBody = "User Name: " . $user_name . "\n";
 $mailBody .= "User Email: " . $user_email . "\n";
 $mailBody .= "Phone: " . $user_phone . "\n";
 $mailBody .= "Address: " . $user_address . "\n";
+$mailBody .= "State: " . $user_state . "\n";
 $mailBody .= "JAMB-BUNDLE: " . $user_bundle_j . "\n";
 $mailBody .= "WAEC-BUNDLE: " . $user_bundle_w . "\n";
+$mailBody .= "WAEC & JAMB BUNDLE: " . $user_bundle_w_j . "\n";
 // $file = "files/codexworld.pdf";
 
 if (mail($toEmail, "Book Order form $user_name ", $mailBody, $mailHeaders)) {
