@@ -16,7 +16,7 @@
 
 
     <title>Winbest International</title>
-    
+
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -41,7 +41,17 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=331221205298941&ev=PageView&noscript=1" /></noscript>
+
     <!-- End Facebook Pixel Code -->
+    <style>
+        /* Initially, hide the extra text that
+            can be revealed with the button */
+        #moreText {
+
+            /* Display nothing for the element */
+            display: none;
+        }
+    </style>
 
 </head>
 
@@ -103,137 +113,144 @@
                 Winning Maltina teacher of the year....Her approach to exam
                 preparations has yielded hundreds of successful results and counting
                 for many families and your child can be one of the success stories if
-                you permit.
+                you permit.<span id="points">...</span>
             </p>
+            <!-- Trigger toggleText() when the 
+        button is clicked -->
+            <button onclick="toggleText()" id="textButton">
+                Show More
+            </button>
+            <span id="moreText">
 
-            <p>
-                I actually mean guaranteed result of <b>‘320’</b> and above in JAMB on
-                your first sitting and ‘A’s’ in your WAEC single sitting too, without
-                losing one year or sorting anybody but a guaranteed 320 in Jamb on
-                your first sitting.
-            </p>
+                <p>
+                    I actually mean guaranteed result of <b>‘320’</b> and above in JAMB on
+                    your first sitting and ‘A’s’ in your WAEC single sitting too, without
+                    losing one year or sorting anybody but a guaranteed 320 in Jamb on
+                    your first sitting.
+                </p>
 
-            <p>
-                Do u think it's impossible? Well let me bust your bubble... It is easy
-                with the right tools and that is why I am introducing you to this age
-                old solution which thousands have used to get high scores in Jamb and
-                all A’s in WAEC.
-            </p>
+                <p>
+                    Do u think it's impossible? Well let me bust your bubble... It is easy
+                    with the right tools and that is why I am introducing you to this age
+                    old solution which thousands have used to get high scores in Jamb and
+                    all A’s in WAEC.
+                </p>
 
-            <p>
-                Well this is not totally a secret. If you have ever picked up a
-                textbook to read before, you will notice how each one is arranged in
-                chapters with topics and subtopics. That is because, this is the
-                scientifically proven way, human beings learn and assimilate info. It
-                is unfortunate that during WAEC and JAMB preparations, teachers cram
-                up everything and students use tools that end up making them more
-                confused instead of making their preparations seamless.
-            </p>
+                <p>
+                    Well this is not totally a secret. If you have ever picked up a
+                    textbook to read before, you will notice how each one is arranged in
+                    chapters with topics and subtopics. That is because, this is the
+                    scientifically proven way, human beings learn and assimilate info. It
+                    is unfortunate that during WAEC and JAMB preparations, teachers cram
+                    up everything and students use tools that end up making them more
+                    confused instead of making their preparations seamless.
+                </p>
 
-            <p>
-                Those who first introduced the tools we use for exam preparations did
-                not put these psychologies of learning in mind as they developed their
-                work.
-            </p>
+                <p>
+                    Those who first introduced the tools we use for exam preparations did
+                    not put these psychologies of learning in mind as they developed their
+                    work.
+                </p>
 
-            <h4 class="red-text text-lighten-2">
-                The Benefits: What your child will gain by using the revealed secret:
-            </h4>
-            <p>
-                We have labelled our own exam preparation tool “Prep50”. Using this
-                tool, your child will effectively “<b>learn how to learn</b>”. This is
-                very important. It is one of the most vital skills any student must
-                have to succeed as a student.
-            </p>
+                <h4 class="red-text text-lighten-2">
+                    The Benefits: What your child will gain by using the revealed secret:
+                </h4>
+                <p>
+                    We have labelled our own exam preparation tool “Prep50”. Using this
+                    tool, your child will effectively “<b>learn how to learn</b>”. This is
+                    very important. It is one of the most vital skills any student must
+                    have to succeed as a student.
+                </p>
 
-            <p>
-                Some children think that learning is all about opening and reading a
-                book, well they do that everyday in school without actually learning
-                anything because learning requires more than the act of opening and
-                reading. Learning has to be contextualized, bit-sized and
-                well-structured and that is what prep50 comes with. Your child will
-                learn how to organize his/her academic tasks in a way that will ensure
-                that learning is always taking place and in a way that you can also
-                measure what they have learnt.
-            </p>
+                <p>
+                    Some children think that learning is all about opening and reading a
+                    book, well they do that everyday in school without actually learning
+                    anything because learning requires more than the act of opening and
+                    reading. Learning has to be contextualized, bit-sized and
+                    well-structured and that is what prep50 comes with. Your child will
+                    learn how to organize his/her academic tasks in a way that will ensure
+                    that learning is always taking place and in a way that you can also
+                    measure what they have learnt.
+                </p>
 
-            <p>
-                Secondly, your child will develop the ability to
-                <b>think like an examiner/teacher</b>. This is a huge skill too for
-                every student so long as your studies warrant that you will write an
-                exam. By painstakingly going through the “Prep50” series, subject by
-                subject, topic by topic, and sub-topic after sub-topic, the scales
-                will fall off from your eyes and like it happened to Adam and Eve, you
-                will know the world and you will begin to see how examiners create,
-                craft and structure questions just to test your understanding.
-            </p>
+                <p>
+                    Secondly, your child will develop the ability to
+                    <b>think like an examiner/teacher</b>. This is a huge skill too for
+                    every student so long as your studies warrant that you will write an
+                    exam. By painstakingly going through the “Prep50” series, subject by
+                    subject, topic by topic, and sub-topic after sub-topic, the scales
+                    will fall off from your eyes and like it happened to Adam and Eve, you
+                    will know the world and you will begin to see how examiners create,
+                    craft and structure questions just to test your understanding.
+                </p>
 
-            <p>
-                The beauty of this skill for your child is that every new textbook
-                your child picks to read, he/she will be able to predict likely
-                questions that can come from the topic. This prediction capacity will
-                make your child not to fail any exam again in their lifetime
-                unless they did not prepare for it. If your child can think like the
-                teacher, they will know the part of the textbook that any good teacher
-                will set questions from and focus more on those areas.
-                <b>(Top Secret)</b>
-            </p>
+                <p>
+                    The beauty of this skill for your child is that every new textbook
+                    your child picks to read, he/she will be able to predict likely
+                    questions that can come from the topic. This prediction capacity will
+                    make your child not to fail any exam again in their lifetime
+                    unless they did not prepare for it. If your child can think like the
+                    teacher, they will know the part of the textbook that any good teacher
+                    will set questions from and focus more on those areas.
+                    <b>(Top Secret)</b>
+                </p>
 
-            <p>
-                Prep50 promises you <b>an easy way to learn</b>. This will help your
-                child to cover more topics than usual in a day and most importantly
-                cover the entire syllabus before the exam. So they are very familiar
-                with all questions from all the topics before the exam and
-                consequently can attempt all questions.
-            </p>
+                <p>
+                    Prep50 promises you <b>an easy way to learn</b>. This will help your
+                    child to cover more topics than usual in a day and most importantly
+                    cover the entire syllabus before the exam. So they are very familiar
+                    with all questions from all the topics before the exam and
+                    consequently can attempt all questions.
+                </p>
 
-            <p>
-                Prep50 helps you to be disciplined and avoid procrastination. Many
-                schools usually start the exam preparations for the students only when
-                they are already in SS3. This is very wrong as we learned from the
-                award winning teacher. According to her, WAEC preparation starts in
-                SS1 because the syllabus covers from SS1 to SS3.
-            </p>
+                <p>
+                    Prep50 helps you to be disciplined and avoid procrastination. Many
+                    schools usually start the exam preparations for the students only when
+                    they are already in SS3. This is very wrong as we learned from the
+                    award winning teacher. According to her, WAEC preparation starts in
+                    SS1 because the syllabus covers from SS1 to SS3.
+                </p>
 
-            <p>
-                Hence exposing the child to WAEC standard from the onset, gives
-                him/her more advantage over those who started their preparations in
-                SS3. We have structured our preparation tool to reflect every one of
-                her advice to help your child start early on the journey to success.
-            </p>
+                <p>
+                    Hence exposing the child to WAEC standard from the onset, gives
+                    him/her more advantage over those who started their preparations in
+                    SS3. We have structured our preparation tool to reflect every one of
+                    her advice to help your child start early on the journey to success.
+                </p>
 
-            <p>
-                Finally, something spiritual happens that
-                <b>improves your Retentive Memory</b> when studying with prep50. Using
-                the prep50 structured learning approach, will help you to create
-                neural networks in your brain. If you listen to radio programs,
-                sometime you begin to complain why the same callers call-in everyday
-                to share their opinion while hundreds of others find it hard to call
-                into the program even for once in a year. The secret is neural
-                networks.
-            </p>
-            <!--  -->
-            <p>
-                When you do something every day, you create a pathway in your mind for
-                easy recall. By using Prep50 to study, your child will naturally
-                create that neural networks between the subjects and his/her mind to
-                enable for easy recall on the day of exam.
-            </p>
+                <p>
+                    Finally, something spiritual happens that
+                    <b>improves your Retentive Memory</b> when studying with prep50. Using
+                    the prep50 structured learning approach, will help you to create
+                    neural networks in your brain. If you listen to radio programs,
+                    sometime you begin to complain why the same callers call-in everyday
+                    to share their opinion while hundreds of others find it hard to call
+                    into the program even for once in a year. The secret is neural
+                    networks.
+                </p>
+                <!--  -->
+                <p>
+                    When you do something every day, you create a pathway in your mind for
+                    easy recall. By using Prep50 to study, your child will naturally
+                    create that neural networks between the subjects and his/her mind to
+                    enable for easy recall on the day of exam.
+                </p>
 
-            <h3 class="red-text text-lighten-2">The Secret Tool</h3>
-            <p>
-                Having learnt all these secrets from the award winning, Maltina
-                Teacher of the year, we wanted to find a way to share this knowledge
-                with every parent, every school and every student. We are also aware
-                that everybody does not have access to this type of teacher in their
-                respective schools... So we worked earnestly to put together the
-                solution in a series of books which we have labelled the
-                <b>Prep50 series (Hard copy</b>). We have the past
-                question series in WAEC and JAMB but they are structured differently
-                to ensure your child reaps all the benefits we have mentioned above
-                and gain admission to study any course of their choice without bribing
-                anybody.
-            </p>
+                <h3 class="red-text text-lighten-2">The Secret Tool</h3>
+                <p>
+                    Having learnt all these secrets from the award winning, Maltina
+                    Teacher of the year, we wanted to find a way to share this knowledge
+                    with every parent, every school and every student. We are also aware
+                    that everybody does not have access to this type of teacher in their
+                    respective schools... So we worked earnestly to put together the
+                    solution in a series of books which we have labelled the
+                    <b>Prep50 series (Hard copy</b>). We have the past
+                    question series in WAEC and JAMB but they are structured differently
+                    to ensure your child reaps all the benefits we have mentioned above
+                    and gain admission to study any course of their choice without bribing
+                    anybody.
+                </p>
+            </span>
             <br>
         </div>
     </div>
@@ -1297,6 +1314,54 @@
                 }
             });
             handler.openIframe();
+        }
+    </script>
+    <script>
+        function toggleText() {
+
+            // Get all the elements from the page
+            var points =
+                document.getElementById("points");
+
+            var showMoreText =
+                document.getElementById("moreText");
+
+            var buttonText =
+                document.getElementById("textButton");
+
+            // If the display property of the dots 
+            // to be displayed is already set to 
+            // 'none' (that is hidden) then this 
+            // section of code triggers
+            if (points.style.display === "none") {
+
+                // Hide the text between the span
+                // elements
+                showMoreText.style.display = "none";
+
+                // Show the dots after the text
+                points.style.display = "inline";
+
+                // Change the text on button to 
+                // 'Show More'
+                buttonText.innerHTML = "Show More";
+            }
+
+            // If the hidden portion is revealed,
+            // we will change it back to be hidden
+            else {
+
+                // Show the text between the
+                // span elements
+                showMoreText.style.display = "inline";
+
+                // Hide the dots after the text
+                points.style.display = "none";
+
+                // Change the text on button
+                // to 'Show Less'
+                buttonText.innerHTML = "Show Less";
+            }
         }
     </script>
 </body>
