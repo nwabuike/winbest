@@ -262,36 +262,43 @@
                     Jamb Bundle
                 </h3>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/bio_jamb.jpg" />
-                    <h5 class="red-text">Biology</h5>
+                    <a href="#form"> <img class="responsive-img" src="img/bio_jamb.jpg" />
+                        <h5 class="red-text">Biology</h5></a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/eng_jamb.jpg" />
-                    <h5 class="red-text">English Language</h5>
+                    <a href="#form"><img class="responsive-img" src="img/eng_jamb.jpg" />
+                        <h5 class="red-text">English Language</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/maths_jamb.jpg" />
-                    <h5 class="red-text">Mathematics</h5>
+                    <a href="#form"> <img class="responsive-img" src="img/maths_jamb.jpg" />
+                        <h5 class="red-text">Mathematics</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/phy_jamb.jpg" />
-                    <h5 class="red-text">Physics</h5>
+                    <a href="#form"><img class="responsive-img" src="img/phy_jamb.jpg" />
+                        <h5 class="red-text">Physics</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/chem_jamb.jpeg" />
-                    <h5 class="red-text">Chemistry</h5>
+                    <a href="#form"><img class="responsive-img" src="img/chem_jamb.jpeg" />
+                        <h5 class="red-text">Chemistry</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/lit_ssce.jpg" />
-                    <h5 class="red-text">Literature In Eng.</h5>
+                    <a href="#form"><img class="responsive-img" src="img/lit_ssce.jpg" />
+                        <h5 class="red-text">Literature In Eng.</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/gov_jamb.jpg" />
-                    <h5 class="red-text">Government</h5>
+                    <a href="#form"><img class="responsive-img" src="img/gov_jamb.jpg" />
+                        <h5 class="red-text">Government</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/crs_jamb.jpg" />
-                    <h5 class="red-text">C.R.S</h5>
+                    <a href="#form"><img class="responsive-img" src="img/crs_jamb.jpg" />
+                        <h5 class="red-text">C.R.S</h5>
+                    </a>
                 </div>
             </div>
             <div class="row center">
@@ -311,42 +318,51 @@
             <h3 class="header col s12 red-text text-lighten-2">WAEC Bundle</h3>
             <div class="row">
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/bio_waec.jpeg" />
-                    <h5 class="red-text">Biology</h5>
+                    <a href="#form"><img class="responsive-img" src="img/bio_waec.jpeg" />
+                        <h5 class="red-text">Biology</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/eng_ssce.jpg" />
-                    <h5 class="red-text">English Language</h5>
+                    <a href="#form"> <img class="responsive-img" src="img/eng_ssce.jpg" />
+                        <h5 class="red-text">English Language</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/maths_waec.jpg" />
-                    <h5 class="red-text">Mathematics</h5>
+                    <a href="#form"><img class="responsive-img" src="img/maths_waec.jpg" />
+                        <h5 class="red-text">Mathematics</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/physics_ssce.jpg" />
-                    <h5 class="red-text">Physics</h5>
+                    <a href="#form"><img class="responsive-img" src="img/physics_ssce.jpg" />
+                        <h5 class="red-text">Physics</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/lit_waec.jpeg" />
-                    <h5 class="red-text">Literature In Eng.</h5>
+                    <a href="#form"><img class="responsive-img" src="img/lit_waec.jpeg" />
+                        <h5 class="red-text">Literature In Eng.</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/gov_waec.jpg" />
-                    <h5 class="red-text">Government</h5>
+                    <a href="#form"> <img class="responsive-img" src="img/gov_waec.jpg" />
+                        <h5 class="red-text">Government</h5>
+                    </a>
                 </div>
             </div>
             <div class="row">
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/crk_ssce.jpg" />
-                    <h5 class="red-text">C.R.S</h5>
+                    <a href="#form"><img class="responsive-img" src="img/crk_ssce.jpg" />
+                        <h5 class="red-text">C.R.S</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/che_ssce.jpg" />
-                    <h5 class="red-text">Chemistry</h5>
+                    <a href="#form"><img class="responsive-img" src="img/che_ssce.jpg" />
+                        <h5 class="red-text">Chemistry</h5>
+                    </a>
                 </div>
                 <div class="col s6 m4">
-                    <img class="responsive-img" src="img/civic_waec.jpg" />
-                    <h5 class="red-text">Civic Education</h5>
+                    <a href="#form"><img class="responsive-img" src="img/civic_waec.jpg" />
+                        <h5 class="red-text">Civic Education</h5>
+                    </a>
                 </div>
             </div>
 
